@@ -1,0 +1,16 @@
+# @summary A short summary of the purpose of this class
+#
+# A description of what this class does
+#
+# @example
+#   include wakka
+#
+# @param foo A description of this parameter.
+class {{.pct_name}} (
+{{- range $i, $p := .puppet_class.params -}}
+  {{ if $i}},{{end }}
+  {{$p.type}} ${{$p.name}}
+{{- end}}
+) {
+# implement code here
+}
