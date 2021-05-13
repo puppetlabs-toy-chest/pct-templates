@@ -1,0 +1,31 @@
+---
+template:
+  id: puppet-module-base
+  type: project
+  display: Puppet Module Base
+  version: 0.1.0
+  url: https://github.com/puppetlabs/pct-puppet-module-base
+
+puppet_module:
+  author: "sanfrancrisko"
+  license: "Apache-2.0"
+  version: "0.1.0"
+  summary: "A bare bones Puppet Module"
+  operatingsystem_support:
+    - operatingsystem: "Windows"
+      release: [2019, 10]
+    - operatingsystem: "Ubuntu"
+      release: ['20.04', '18.04']
+    - operatingsystem: 'CentOS'
+      release: ['7', '8']
+    # - operatingsystem: 'RedHat'
+    #   release: ['7', '8']
+    - operatingsystem: 'Debian'
+      release: ['10']
+    # - operatingsystem: 'Scientific'
+    #   release: ['7']
+    # - operatingsystem: 'OracleLinux'
+    #   release: ['7']
+  requirements:
+    - name: puppet
+      version_requirement: '>= 6.21.0 < 8.0.0'
