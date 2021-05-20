@@ -1,0 +1,42 @@
+{
+  "name": "{{.puppet_module.author}}-{{.pct_name}}",
+  "version": "{{.puppet_module.version}}",
+  "author": "{{.user}}",
+  "summary": "{{.puppet_module.summary}}",
+  "license": "{{.puppet_module.license}}",
+  "source": "https://github.com/{{.puppet_module.author}}/{{.pct_name}}",
+  "dependencies": [
+{{- range $i, $d := .puppet_module.dependencies -}}
+    {{ if $i}},{{end }}
+    {
+      "name": "{{$d.name}}",
+      "version_requirement": "{{$d.version_requirement}}"
+    }
+{{- end}}
+  ],
+  "requirements": [
+{{- range $i, $r := .puppet_module.requirements -}}
+    {{ if $i}},{{end }}
+    {
+      "name": "{{$r.name}}",
+      "version_requirement": "{{$r.version_requirement}}"
+    }
+{{- end}}
+  ],
+  "operatingsystem_support": [
+{{- range $i, $o := .puppet_module.operatingsystem_support -}}
+    {{ if $i}},{{end }}
+    {
+      "operatingsystem": "{{$o.operatingsystem}}",
+      "operatingsystemrelease": [
+      {{- range $i, $rel := $o.release -}}
+        {{- if $i}},{{end -}}
+        "{{$rel}}"
+      {{- end}}]
+    }
+{{- end}}
+  ],
+  "pdk-version": "{{.pdk.version}}-{{.pdk.commit_hash}}",
+  "template-url": "{{.template.url}}",
+  "template-ref": "{{.template.version}}"
+}

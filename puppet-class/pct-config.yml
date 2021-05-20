@@ -1,0 +1,13 @@
+---
+template:
+  name: puppet-class
+  type: item
+  display: Puppet Class
+  version: 0.1.0
+  url: https://github.com/puppetlabs/pct-puppet-class
+
+puppet_class:
+  params:
+    - name: thing
+      type: String
+      desc: The thing of the resource you want to manage
