@@ -1,0 +1,7 @@
+---
+template:
+  name: "puppet-control-repo"
+  type: "project"
+  display: "Puppet Control Repo"
+  version: 0.1.0
+  url: "https://github.com/puppetlabs/pct-puppet-control-repo"

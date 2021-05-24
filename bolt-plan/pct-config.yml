@@ -1,0 +1,9 @@
+---
+template:
+  id: bolt-plan
+  type: item
+  display: "Bolt Plan"
+  version: 0.1.0
+  url: https://github.com/puppetlabs/pct-bolt-plan
+
+# bolt-plan:

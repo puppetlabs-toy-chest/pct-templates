@@ -1,0 +1,14 @@
+---
+template:
+  id: bolt-project
+  type: project
+  display: Bolt Project
+  version: 0.1.0
+  url: https://github.com/puppetlabs/pct-bolt-project
+
+bolt_project:
+  modules:
+    - name: puppetlabs-ruby_task_helper
+      version_requirement: "=0.5.1"
+    - name: puppetlabs-powershell_task_helper
+      version_requirement: "=0.5.1"

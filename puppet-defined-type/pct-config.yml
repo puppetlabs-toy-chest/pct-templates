@@ -1,0 +1,9 @@
+---
+template:
+  id: puppet-defined-type
+  type: item
+  display: "Puppet Defined Type"
+  version: 0.1.0
+  url: https://github.com/puppetlabs/pct-puppet-defined-type
+
+# puppet_defined_type:

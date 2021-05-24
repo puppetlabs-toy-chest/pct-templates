@@ -1,0 +1,7 @@
+---
+template:
+  id: puppet-content-template
+  type: project
+  display: Puppet Content Template
+  version: 0.1.0
+  url: https://github.com/puppetlabs/pct

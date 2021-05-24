@@ -1,0 +1,14 @@
+---
+template:
+  id: bolt-pwsh-task
+  type: item
+  display: "Bolt PowerShell Task"
+  version: 0.1.0
+  url: https://github.com/puppetlabs/pct-bolt-pwsh-task
+
+bolt_pwsh_task:
+  parameters:
+    - name: paramOne
+      type: string
+    - name: paramTwo
+      type: string

@@ -1,0 +1,7 @@
+---
+template:
+  id: git-ignore
+  type: item
+  display: Puppet Git Ignore File
+  version: 0.1.0
+  url: https://github.com/puppetlabs/pct-git-ignore

@@ -1,0 +1,9 @@
+---
+template:
+  id: bolt-yaml-plan
+  type: item
+  display: "Bolt YAML Plan"
+  version: 0.1.0
+  url: https://github.com/puppetlabs/pct-bolt-yaml-plan
+
+# bolt-yaml-plan:

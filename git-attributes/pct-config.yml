@@ -1,0 +1,7 @@
+---
+template:
+  id: git-attributes
+  type: item
+  display: Puppet Git Attributes File
+  version: 0.1.0
+  url: https://github.com/puppetlabs/pct-git-attributes
