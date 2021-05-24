@@ -1,6 +1,6 @@
 ---
 template:
-  name: puppet-class
+  id: puppet-class
   type: item
   display: Puppet Class
   version: 0.1.0
