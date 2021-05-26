@@ -4,13 +4,7 @@
 #
 # @example
 #   include wakka
-#
-# @param foo A description of this parameter.
-class {{.pct_name}} (
-{{- range $i, $p := .puppet_class.params -}}
-  {{ if $i}},{{end }}
-  {{$p.type}} ${{$p.name}}
-{{- end}}
-) {
-# implement code here
+# 
+class {{.puppet_class.module_name}}::{{.pct_name}} {
+
 }

@@ -4,7 +4,7 @@ template:
   type: project
   display: Puppet Module Base
   version: 0.1.0
-  url: https://github.com/puppetlabs/pct-puppet-module-base
+  url: https://github.com/puppetlabs/baker-round
 
 puppet_module:
   license: "Apache-2.0"
