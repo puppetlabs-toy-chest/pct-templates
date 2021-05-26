@@ -1,0 +1,15 @@
+---
+template:
+  id: ghactions-spec-workflow-supported-puppet
+  type: item
+  display: GHActions for Spec Tests with Supported Puppet Versions
+  version: 0.1.0
+  url: https://github.com/puppetlabs/baker-round
+ 
+ghactions_spec:
+  name: "Spec Tests"
+  runs_on: 'ubuntu-latest'
+  default_branch: 'main'
+  puppet_versions:
+  - ~> 6.0
+  - ~> 7.0
