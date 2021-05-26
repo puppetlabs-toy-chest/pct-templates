@@ -4,10 +4,7 @@ template:
   type: item
   display: Puppet Class
   version: 0.1.0
-  url: https://github.com/puppetlabs/pct-puppet-class
+  url: https://github.com/puppetlabs/baker-round
 
 puppet_class:
-  params:
-    - name: thing
-      type: String
-      desc: The thing of the resource you want to manage
+  module_name: module_name
