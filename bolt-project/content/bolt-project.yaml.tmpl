@@ -1,5 +1,9 @@
 ---
 name: {{.pct_name}}
+plans:
+  - {{.pct_name}}::*
+tasks:
+  - {{.pct_name}}::*
 modules:
 {{- range .bolt_project.modules }}
   - name: {{.name}}
