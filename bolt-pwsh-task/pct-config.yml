@@ -7,8 +7,9 @@ template:
   url: https://github.com/puppetlabs/pct-bolt-pwsh-task
 
 bolt_pwsh_task:
+  description: A Geneterated Powershell Bolt Task
   parameters:
-    - name: paramOne
-      type: string
-    - name: paramTwo
-      type: string
+    - name: name
+      type: String
+    - name: param_two
+      type: String

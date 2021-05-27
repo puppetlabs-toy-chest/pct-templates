@@ -38,6 +38,7 @@ You can add a `-Message` if you want
 #>
 try {
   $output = Invoke-PotentiallyFailingCommand -Command 'foo' -User $name
+  Write-Output "{ `"output`": `"${output}`"}"
 }
 catch {
   Write-BoltError -Exception $_
