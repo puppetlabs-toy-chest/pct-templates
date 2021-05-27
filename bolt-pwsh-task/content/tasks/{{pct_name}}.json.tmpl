@@ -1,0 +1,16 @@
+{
+  "description": "{{.bolt_pwsh_task.description}}",
+  "private": false,
+  "supports_noop": false,
+  "input_method": "powershell",
+  "files": ["powershell_task_helper/files/BoltPwshHelper/"],
+  "parameters": {
+{{- range $i, $d := .bolt_pwsh_task.parameters -}}
+    {{ if $i}},{{end }}
+    "{{$d.name}}": {
+      "description": "",
+      "type": "{{$d.type}}"
+    }
+{{- end}}
+  }
+}

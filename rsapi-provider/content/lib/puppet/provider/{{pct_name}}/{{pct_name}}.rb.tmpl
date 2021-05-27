@@ -1,0 +1,39 @@
+
+
+pdk new -n foo_bar
+
+# frozen_string_literal: true
+
+require 'puppet/resource_api/simple_provider'
+
+# Implementation for the {{.pct_name}} type using the Resource API.
+# foo_bar
+# FooBar
+
+class Puppet::Provider::{{ toClassName .pct_name}}::{{ toClassName .pct_name }} < Puppet::ResourceApi::SimpleProvider
+  def get(context)
+    context.debug('Returning pre-canned example data')
+    [
+      {
+        id: 'foo',
+        ensure: 'present',
+      },
+      {
+        id: 'bar',
+        ensure: 'present',
+      },
+    ]
+  end
+
+  def create(context, name, should)
+    context.notice("Creating '#{name}' with #{should.inspect}")
+  end
+
+  def update(context, name, should)
+    context.notice("Updating '#{name}' with #{should.inspect}")
+  end
+
+  def delete(context, name)
+    context.notice("Deleting '#{name}'")
+  end
+end

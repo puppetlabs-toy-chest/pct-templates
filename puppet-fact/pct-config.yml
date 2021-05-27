@@ -1,0 +1,9 @@
+---
+template:
+  id: puppet-fact
+  type: item
+  display: Puppet Fact
+  version: 0.1.0
+  url: https://github.com/puppetlabs/pct-puppet-fact
+
+# puppet_fact:

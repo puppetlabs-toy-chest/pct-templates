@@ -1,0 +1,7 @@
+---
+name: {{.pct_name}}
+modules:
+{{- range .bolt_project.modules }}
+  - name: {{.name}}
+    version_requirement: "{{.version_requirement}}"
+{{- end}}
