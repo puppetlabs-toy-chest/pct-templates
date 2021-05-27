@@ -11,4 +11,4 @@ bolt_project:
     - name: puppetlabs-ruby_task_helper
       version_requirement: "=0.5.1"
     - name: puppetlabs-powershell_task_helper
-      version_requirement: "=0.5.1"
+      version_requirement: "=0.1.0"
