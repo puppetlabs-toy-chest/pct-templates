@@ -5,10 +5,10 @@
 # summary and parameters from the plan.
 # @summary A plan created with bolt plan new.
 # @param targets The targets to run on.
-plan {{.pct_name}} (
-  TargetSpec $targets = "localhost"
+plan {{.bolt_plan.module}}::{{.pct_name}} (
+  TargetSpec $targets = 'localhost'
 ) {
-  out::message("Hello from {{.pct_name}}")
+  out::message('Hello from {{.pct_name}}')
   $command_result = run_command('whoami', $targets)
   return $command_result
 }
