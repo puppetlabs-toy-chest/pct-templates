@@ -5,7 +5,7 @@
 # summary and parameters from the plan.
 # @summary A plan created with bolt plan new.
 # @param targets The targets to run on.
-plan {{.pct_name}} (
+plan {{.bolt_plan.module}}::{{.pct_name}} (
   TargetSpec $targets = 'localhost'
 ) {
   out::message('Hello from {{.pct_name}}')
