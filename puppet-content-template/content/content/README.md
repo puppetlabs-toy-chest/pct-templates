@@ -12,15 +12,15 @@ A PCT must contain a `pct-config.yml` in the root directory, alongside a `conten
 
 The `content` directory contains the files and folders required to produce the `project` or `item`.
 
-To mark a file as a template, use the `.tmpl` extension. Templated files can also use the global variable of `{{pct_name}}` to access the input from the `--name` cli argument.
+To mark a file as a template, use the `.tmpl` extension. Templated files can also use the global variable of {{"`{{.pct_name}}`"}} to access the input from the `--name` cli argument.
 
-> :memo: Folders within the `content` directory can also use the `{{pct_name}}` variable
+> :memo: Folders within the `content` directory can also use the {{"`{{.pct_name}}`"}} variable
 
 Example template file names:
 
 ``` bash
 myConfig.json.tmpl
-{{pct_name}}_spec.rb
+{{`{{.pct_name}}`}}_spec.rb
 ```
 
 > :memo: One, all or none of the files can be templated.
