@@ -5,3 +5,6 @@ template:
   display: Puppet Content Template
   version: 0.1.0
   url: https://github.com/puppetlabs/pct
+
+puppet_content_template:
+  author: <Replace with author id, e.g. 'puppetlabs'>
