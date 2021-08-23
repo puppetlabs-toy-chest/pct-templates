@@ -1,6 +1,7 @@
 ---
 template:
   id: bolt-yaml-plan
+  author: puppetlabs
   type: item
   display: "Bolt YAML Plan"
   version: 0.1.0

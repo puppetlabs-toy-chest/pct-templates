@@ -1,6 +1,7 @@
 ---
 template:
   id: puppet-module-base
+  author: puppetlabs
   type: project
   display: Puppet Module Base
   version: 0.1.0

@@ -1,6 +1,7 @@
 ---
 template:
   id: git-attributes
+  author: puppetlabs
   type: item
   display: Puppet Git Attributes File
   version: 0.1.0

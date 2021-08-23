@@ -1,6 +1,7 @@
 ---
 template:
   id: bolt-plan
+  author: puppetlabs
   type: item
   display: "Bolt Plan"
   version: 0.1.0

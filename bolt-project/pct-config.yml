@@ -1,6 +1,7 @@
 ---
 template:
   id: bolt-project
+  author: puppetlabs
   type: project
   display: Bolt Project
   version: 0.1.0

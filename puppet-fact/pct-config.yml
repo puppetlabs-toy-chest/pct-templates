@@ -1,6 +1,7 @@
 ---
 template:
   id: puppet-fact
+  author: puppetlabs
   type: item
   display: Puppet Fact
   version: 0.1.0

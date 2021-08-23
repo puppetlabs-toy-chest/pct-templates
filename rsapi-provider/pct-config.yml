@@ -1,6 +1,7 @@
 ---
 template:
   id: rsapi-provider
+  author: puppetlabs
   display: Puppet Resource API Provider
   type: item
   version: 0.1.0

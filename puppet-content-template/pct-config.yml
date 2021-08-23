@@ -1,6 +1,7 @@
 ---
 template:
   id: puppet-content-template
+  author: puppetlabs
   type: project
   display: Puppet Content Template
   version: 0.1.0
