@@ -1,6 +1,7 @@
 ---
 template:
   id: puppet-class
+  author: puppetlabs
   type: item
   display: Puppet Class
   version: 0.1.0

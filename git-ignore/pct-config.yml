@@ -1,6 +1,7 @@
 ---
 template:
   id: git-ignore
+  author: puppetlabs
   type: item
   display: Puppet Git Ignore File
   version: 0.1.0

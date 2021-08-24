@@ -1,6 +1,7 @@
 ---
 template:
   id: bolt-pwsh-task
+  author: puppetlabs
   type: item
   display: "Bolt PowerShell Task"
   version: 0.1.0

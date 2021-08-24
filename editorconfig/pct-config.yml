@@ -1,6 +1,7 @@
 ---
 template:
   id: editorconfig
+  author: puppetlabs
   type: item
   display: .editorconfig file
   version: 0.1.0

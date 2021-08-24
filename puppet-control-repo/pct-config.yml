@@ -1,6 +1,7 @@
 ---
 template:
   id: "puppet-control-repo"
+  author: puppetlabs
   type: "project"
   display: "Puppet Control Repo"
   version: 0.1.0

@@ -1,6 +1,7 @@
 ---
 template:
   id: puppet-defined-type
+  author: puppetlabs
   type: item
   display: "Puppet Defined Type"
   version: 0.1.0
